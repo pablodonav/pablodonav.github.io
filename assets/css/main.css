@@ -4000,5 +4000,5 @@ input, select, textarea {
 	}
 
 	li.active {
-		background-color: rgb(51, 51, 51);
+		color: rgb(51, 51, 51);
 	  }
