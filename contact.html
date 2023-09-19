@@ -49,22 +49,18 @@
 				<div class="inner">
 					<section>
 						<h4>Formulario de Contacto</h4>
-						<form method="post" action="enviar_correo.php">
+						<form action="https://formspree.io/f/xwkdnlgj" method="POST">
 							<div class="row gtr-uniform">
-								<div class="col-12">
-									<input type="text" name="nombre" id="nombre" placeholder="Nombre" required />
-								</div>
-								<div class="col-12">
+								<div class="col-24">
 									<input type="email" name="email" id="email" placeholder="Email" required />
 								</div>
 								<div class="col-12">
-									<textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje" rows="6"
+									<textarea name="message" id="message" placeholder="Escribe tu mensaje" rows="6"
 										required></textarea>
 								</div>
 								<div class="col-12">
 									<ul class="actions">
 										<li><input type="submit" value="Enviar Mensaje" class="primary" /></li>
-										<li><input type="reset" value="Limpiar" /></li>
 									</ul>
 								</div>
 							</div>
